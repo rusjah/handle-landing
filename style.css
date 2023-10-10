@@ -13,18 +13,22 @@ body {
     background-color: hsl(257, 40%, 49%);;
     --heading-font-family: 'Poppins', sans-serif;
     --body-font-family: 'Open Sans', sans-serif;
+    --main-color: hsl(260.77,56.52%,90.98%);
     background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
 }
 
 .container {
     display: grid;
-    grid-template-rows: repeat(2, 100%) 20%;
+    grid-template-rows: 60% 54% 20%;
     padding: 5vh 7vw;
+    gap: 2vh;
 }
 
 .header {
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 26% 74%;
+    /* background-color: red; */
 }
 
 .header img {
@@ -39,3 +43,37 @@ body {
   width: 92%;
 }
 
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+h2 {
+    font-family: var(--heading-font-family);
+    color:  var(--main-color);
+    padding-bottom: 3vh;
+}
+
+p {
+    width: 94%;
+    font-family: var(--body-font-family);
+    color: var(--main-color);
+    padding-bottom: 3vh;
+}
+
+button {
+    width: 74%;
+    height: 10%;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* svg path {
+    fill:#fff; 
+} */
