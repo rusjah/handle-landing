@@ -20,7 +20,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 60% 54% 20%;
+    grid-template-rows: 64% 54% 20%;
     padding: 5vh 7vw;
     gap: 2vh;
 }
@@ -67,13 +67,37 @@ p {
 
 button {
     width: 74%;
-    height: 10%;
+    height: 20%;
     border-radius: 30px;
     color: hsl(257, 40%, 49%);
-    font-size: 1.2em;
-    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+
+.footer svg {
+
 }
 
 /* svg path {
-    fill:#fff; 
-} */
+    fill: white;
+}  */
+
+.icon {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
